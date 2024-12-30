@@ -1,10 +1,13 @@
+/* CSS IMPORTADOS */
+@import url(./header.css);
+@import url(./portifolio.css);
+
 /* FONTS */
 /* KRONA ONE */
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Krona+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* MONTSERRAT */
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-
 /* VARIAVEIS */
 :root{
   --cor-principal: #000000;
@@ -30,21 +33,7 @@ body {
 }
 
 .cabecalho{
-  background-color: var(--cor-cinza);
-  padding: 2% 0% 2% 15%;
-}
-
-.cabecalho__menu{
-  display: flex;
-  gap: 80px;
-}
-
-.cabecalho__menu__link{
-  color: var(--cor-terciaria);
-  font-size: 1.25rem;
-  font-weight: 600;
-  font-family: var(--fonte-secundaria);
-  text-decoration: none;
+  background-color: var(--cor-primaria);
 }
 
 /* MAIN */
@@ -156,12 +145,8 @@ body {
     width: auto;
   }
 
-  .cabecalho{
-    padding: 10%;
-  }
-
-  .cabecalho__menu{
-    justify-content: center;
+  .apresentacao__links__navegacao{
+    width: 75%;
   }
 
 }

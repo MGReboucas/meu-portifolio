@@ -1,0 +1,36 @@
+.apresentacao__conteudo__port{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+}
+
+.apresentacao__conteudo__port__titulado{
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     gap: 40px;
+     margin: 0em 0em 2em 0em;
+     
+}
+
+.apresentacao__links__navegacao{
+     margin: 1em 0em 1em 1.7em;
+
+}
+
+.apresentacao__conteudo__conteiner{
+     width: 24em;
+     text-align: center;
+     margin: 0em 0em 2em 0em;
+     padding: 1em;
+     border: 1px solid var(--cor-terciaria);
+     border-radius: 1em;
+}
+
+
+.apresentacao__links__link__sub{
+     font-size: .7em;
+}
+
