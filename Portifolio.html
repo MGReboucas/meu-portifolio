@@ -17,8 +17,12 @@
         <ul class="lista-menu">
           <li class="lista-menu__item"><a href="./index.html">Home</a></li>
           <li class="lista-menu__item"><a href="./about.html">Sobre mim</a></li>
-          <li class="lista-menu__item"><a href="./cerfificacoes.html">Formações e Certificacoes</a></li>
-          <li class="lista-menu__item"><a href="./Portifolio.html">Portifolio</a></li>
+          <li class="lista-menu__item">
+            <a href="./cerfificacoes.html">Formações e Certificacoes</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="./Portifolio.html">Portifolio</a>
+          </li>
         </ul>
       </div>
       <div class="cabecalho__opcoes">
@@ -30,7 +34,9 @@
           <a class="opcoes__item__item" href="./about.html">Sobre Mim</a>
         </li>
         <li class="opcoes__item">
-          <a class="opcoes__item__item" href="./cerfificacoes.html">Formações e Certificações</a>
+          <a class="opcoes__item__item" href="./cerfificacoes.html"
+            >Formações e Certificações</a
+          >
         </li>
         <li class="opcoes__item">
           <a class="opcoes__item__item" href="./Portifolio.html">Portifolio</a>
@@ -46,114 +52,121 @@
         </p>
       </section>
 
-      <section class="apresentacao__conteudo__conteiner">
-        <img
-          class="apresentacao__conteudo__conteiner__img"
-          src="./img/Projetos/alurabooksfront.png"
-          alt=""
-        />
-        <h2 class="apresentacao__conteudo__conteiner__titulo">
-          AluraBooks e<br />
-          AluraBooks Server
-        </h2>
-        <p class="apresentacao__conteudo__conteiner__paragrafo">
-          Plataforma desenvolvida pela alura com objetivo de ser um site de
-          venda de livros, esse projeto foi desenvolvido e teve como Front-end
-          em REACT usando javascript e o seu servidor para cadastramento de
-          livros foi feito em NODE usando javascript.
-        </p>
-        <p class="apresentacao__conteudo__conteiner__footer__titulo">
-          Front-end Project:
-        </p>
-        <a
-          class="apresentacao__links__navegacao"
-          href="https://github.com/MGReboucas/alurabooks"
-        >
+      <div class="apresentacao__conteudo__conteiner__div">
+        <section class="apresentacao__conteudo__conteiner">
           <img
-            class="apresentacao__links__link__img"
-            src="./img/assets/1x/github.png"
-            alt="botao github"
+            class="apresentacao__conteudo__conteiner__img"
+            src="./img/Projetos/alurabooksfront.png"
+            alt=""
           />
-          <p class="apresentacao__links__link__sub">Github</p>
-        </a>
-        <p class="apresentacao__conteudo__conteiner__footer__titulo">
-          Back-end Project:
-        </p>
-        <a
-          class="apresentacao__links__navegacao"
-          href="https://github.com/MGReboucas/alurabooks-server"
-        >
-          <img
-            class="apresentacao__links__link__img"
-            src="./img/assets/1x/github.png"
-            alt="botao github"
-          />
-          <p class="apresentacao__links__link__sub">Github</p>
-        </a>
-        <p class="apresentacao__conteudo__conteiner__footer__linguas">
-          Linguagens:
-        </p>
-        <div class="apresentacao__conteudo__conteiner__footer__linguas__lingua">
-          <a href="https://react.dev"
-            ><img
-              class="apresentacao__conteudo__conteiner__footer__linguas__lingua__l"
-              src="./img/LinguasProgramacao/React-icon.svg.png"
-              alt="React"
-          /></a>
-          <a href="https://nodejs.org/pt"
-            ><img
-              class="apresentacao__conteudo__conteiner__footer__linguas__lingua__l"
-              src="./img/LinguasProgramacao/node.png"
-              alt="Node"
-          /></a>
-          <a href="https://pt.wikipedia.org/wiki/JavaScript"
-            ><img
-              class="apresentacao__conteudo__conteiner__footer__linguas__lingua__l"
-              src="./img/LinguasProgramacao/javascript.png"
-              alt="Javascript"
-          /></a>
-        </div>
-      </section>
+          <h2 class="apresentacao__conteudo__conteiner__titulo">
+            AluraBooks e<br />
+            AluraBooks Server
+          </h2>
+          <p class="apresentacao__conteudo__conteiner__paragrafo">
+            Plataforma desenvolvida pela alura com objetivo de ser um site de
+            venda de livros, esse projeto foi desenvolvido e teve como Front-end
+            em REACT usando javascript e o seu servidor para cadastramento de
+            livros foi feito em NODE usando javascript.
+          </p>
+          <p class="apresentacao__conteudo__conteiner__footer__titulo">
+            Front-end Project:
+          </p>
+          <a
+            class="apresentacao__links__navegacao link__navegacao__port"
+            href="https://github.com/MGReboucas/alurabooks"
+          >
+            <img
+              class="apresentacao__links__link__img"
+              src="./img/assets/1x/github.png"
+              alt="botao github"
+            />
+            <p class="apresentacao__links__link__sub">Github</p>
+          </a>
+          <p class="apresentacao__conteudo__conteiner__footer__titulo">
+            Back-end Project:
+          </p>
+          <a
+            class="apresentacao__links__navegacao"
+            href="https://github.com/MGReboucas/alurabooks-server"
+          >
+            <img
+              class="apresentacao__links__link__img"
+              src="./img/assets/1x/github.png"
+              alt="botao github"
+            />
+            <p class="apresentacao__links__link__sub">Github</p>
+          </a>
+          <p class="apresentacao__conteudo__conteiner__footer__linguas">
+            Linguagens:
+          </p>
+          <div
+            class="apresentacao__conteudo__conteiner__footer__linguas__lingua"
+          >
+            <a href="https://react.dev"
+              ><img
+                class="apresentacao__conteudo__conteiner__footer__linguas__lingua__l"
+                src="./img/LinguasProgramacao/React-icon.svg.png"
+                alt="React"
+            /></a>
+            <a href="https://nodejs.org/pt"
+              ><img
+                class="apresentacao__conteudo__conteiner__footer__linguas__lingua__l"
+                src="./img/LinguasProgramacao/node.png"
+                alt="Node"
+            /></a>
+            <a href="https://pt.wikipedia.org/wiki/JavaScript"
+              ><img
+                class="apresentacao__conteudo__conteiner__footer__linguas__lingua__l"
+                src="./img/LinguasProgramacao/javascript.png"
+                alt="Javascript"
+            /></a>
+          </div>
+        </section>
 
-      <section class="apresentacao__conteudo__conteiner">
-        <img
-          class="apresentacao__conteudo__conteiner__img"
-          src="./img/Projetos/negociacoes.png"
-          alt=""
-        />
-        <h2 class="apresentacao__conteudo__conteiner__titulo">
-          Negociações App
-        </h2>
-        <p class="apresentacao__conteudo__conteiner__paragrafo">
-          Aplicativo de Negociações feito usando Javascript com a formatação de pastas em arquivos de
-          controllers, helpers, models, services e views e 
-        </p>
-        <p class="apresentacao__conteudo__conteiner__footer__titulo">
-          Front-end & Back-end Project:
-        </p>
-        <a
-          class="apresentacao__links__navegacao"
-          href="https://github.com/MGReboucas/negociacoes"
-        >
+        <section class="apresentacao__conteudo__conteiner">
           <img
-            class="apresentacao__links__link__img"
-            src="./img/assets/1x/github.png"
-            alt="botao github"
+            class="apresentacao__conteudo__conteiner__img"
+            src="./img/Projetos/negociacoes.png"
+            alt=""
           />
-          <p class="apresentacao__links__link__sub">Github</p>
-        </a>
-        <p class="apresentacao__conteudo__conteiner__footer__linguas">
-          Linguagens:
-        </p>
-        <div class="apresentacao__conteudo__conteiner__footer__linguas__lingua">
-          <a href="https://pt.wikipedia.org/wiki/JavaScript"
-            ><img
-              class="apresentacao__conteudo__conteiner__footer__linguas__lingua__l"
-              src="./img/LinguasProgramacao/javascript.png"
-              alt="Javascript"
-          /></a>
-        </div>
-      </section>
+          <h2 class="apresentacao__conteudo__conteiner__titulo">
+            Negociações App
+          </h2>
+          <p class="apresentacao__conteudo__conteiner__paragrafo conteiner__paragrafo__">
+            Aplicativo de Negociações feito usando Javascript com a formatação
+            de pastas em arquivos de controllers, helpers, models, services e
+            views e
+          </p>
+          <p class="apresentacao__conteudo__conteiner__footer__titulo">
+            Front-end & Back-end Project:
+          </p>
+          <a
+            class="apresentacao__links__navegacao footer__linguas__bubudede"
+            href="https://github.com/MGReboucas/negociacoes"
+          >
+            <img
+              class="apresentacao__links__link__img"
+              src="./img/assets/1x/github.png"
+              alt="botao github"
+            />
+            <p class="apresentacao__links__link__sub">Github</p>
+          </a>
+          <p class="apresentacao__conteudo__conteiner__footer__linguas">
+            Linguagens:
+          </p>
+          <div
+            class="apresentacao__conteudo__conteiner__footer__linguas__lingua"
+          >
+            <a href="https://pt.wikipedia.org/wiki/JavaScript"
+              ><img
+                class="apresentacao__conteudo__conteiner__footer__linguas__lingua__l"
+                src="./img/LinguasProgramacao/javascript.png"
+                alt="Javascript"
+            /></a>
+          </div>
+        </section>
+      </div>
     </main>
 
     <footer class="rodape">
