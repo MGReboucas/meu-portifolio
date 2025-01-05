@@ -96,7 +96,7 @@
      }
 
      .opcoes__item__categorias{
-          color: var(--cor-preto);
+          color: var(--cor-principal);
      }
 
      .opcoes__item{
@@ -104,7 +104,9 @@
      }
 
      .opcoes__item a{
-          color: var(--cor-preto);
+          color: var(--cor-secundaria);
+          font-family: var(--fonte-secundaria);
+          font-weight: 600;
           text-decoration: none;
      }
 
@@ -145,7 +147,7 @@
           display: flex;
           align-items: center;    
           text-decoration: none;
-          color: var(--cor-preto);
+          color: var(--cor-terciaria);
      }
 
      .conteiner__texto{
