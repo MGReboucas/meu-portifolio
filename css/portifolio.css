@@ -21,7 +21,7 @@
 }
 
 .apresentacao__conteudo__conteiner{
-     width: 22em;
+     width: 19em;
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -33,7 +33,7 @@
 }
 
 .apresentacao__conteudo__conteiner__img{
-     width: 70vw;
+     width: 19em;
      border-radius: 1em;
      margin: 1em 0em 1em 0em;
 }
@@ -95,26 +95,31 @@
      width: 3em;
 }
 
-@media screen and (min-width: 505px) {     
+@media screen and (min-width: 505px) {  
+     
+     .apresentacao__conteudo__conteiner{
+          width: 25em;
+     }
+     
      .apresentacao__conteudo__conteiner__img{
-          width: 60vw;
+          width: 23em;
      }
 }
 
 @media screen and (min-width: 600px) {
      
      .apresentacao__conteudo__conteiner{
-          width: 23em;
+          width: 25em;
      }
      
      .apresentacao__conteudo__conteiner__img{
-          width: 50vw;
+          width: 22em;
      }
 }
 
 @media screen and (min-width: 700px) {     
      .apresentacao__conteudo__conteiner__img{
-          width: 40vw;
+          width: 22em;
      }
 }
 
@@ -122,16 +127,17 @@
      .apresentacao__conteudo__conteiner__div{
           display: flex;
           flex-direction: row;
+          justify-content: center;
           flex-wrap: wrap;
           gap: 1.6em;
      }
 
      .apresentacao__conteudo__conteiner{
-          width: 16em;
+          width: 20em;
      }
      
      .apresentacao__conteudo__conteiner__img{
-          width: 30vw;
+          width: 19em;
      }
 
      .conteiner__paragrafo__{
@@ -141,42 +147,43 @@
 
 @media screen and (min-width: 800px) {     
      .apresentacao__conteudo__conteiner{
-          width: 17.5em;
+          width: 16.5em;
      }
 
      .apresentacao__conteudo__conteiner__img{
-          width: 28vw;
+          width: 16.5em;
      }
 }
 
 @media screen and (min-width: 900px) {  
      
      .apresentacao__conteudo__conteiner{
-          width: 21em;
+          width: 18em;
      }
      
      .apresentacao__conteudo__conteiner__img{
-          width: 20vw;
+          width: 18em;
      }
+
+     
 
      
 }
 
 @media screen and (min-width: 1100px) {     
      .apresentacao__conteudo__conteiner__img{
-          width: 20vw;
+          width: 17.5em;
      }
 }
 
-@media screen and (min-width: 1350px) {     
-     .apresentacao__conteudo__conteiner__img{
-          width: 15vw;
-     }
-}
+@media screen and (min-width: 1350px) {
 
-@media screen and (min-width: 1750px) {     
+     .apresentacao__conteudo__conteiner{
+          width: 19em;
+     }
+
      .apresentacao__conteudo__conteiner__img{
-          width: 16vw;
+          width: 19em;
      }
 }
 
